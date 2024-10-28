@@ -1,8 +1,8 @@
 # bfm-robust
-Companion repo for robustness specification in biomedical foundation models
+Companion repo for robustness specification in biomedical foundation models (BFMs)
 
 ### Surveys \& tutorials
-* [A.I. Robustness: a Human-Centered Perspective on Tech- nological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
+* [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
 
 ### Group robustness
@@ -24,8 +24,22 @@ Companion repo for robustness specification in biomedical foundation models
 * [Evaluation of domain generalization and adaptation on improving model robustness to temporal dataset shift in clinical medicine](https://www.nature.com/articles/s41598-022-06484-1), *Sci. Rep.* (2022)
 
 ### Knowledge robustness
+* [Medical large language models are susceptible to targeted misinformation attacks](https://www.nature.com/articles/s41746-024-01282-7), *npj Digit. Med.* (2024)
+* [PromptSmooth: Certifying Robustness of Medical Vision-Language Models via Prompt Learning](https://link.springer.com/chapter/10.1007/978-3-031-72390-2_65), MICCAI (2024)
+* [MedFuzz: Exploring the Robustness of Large Language Models in Medical Question Answering](https://arxiv.org/abs/2406.06573), arXiv:2406.06573
 * [Poisoning medical knowledge using large language models](https://www.nature.com/articles/s42256-024-00899-3), Nat. Mach. Intell. (2024)
 * [Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks](https://arxiv.org/abs/2402.10527), arXiv:2402.10527
+* [Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging](https://arxiv.org/abs/2401.02565), arXiv:2401.02565
+
+### Pref BFM adversarial robustness (language)
+* [Evaluating the Robustness of Adverse Drug Event Classification Models using Templates](https://aclanthology.org/2024.bionlp-1.3/), BioNLP (2024)
+* [Improving the robustness and accuracy of biomedical language models through adversarial training](https://www.sciencedirect.com/science/article/pii/S1532046422001307), *J. Biomed. Inform.* (2022)
+
+### Pref-BFM adversarial robustness (vision)
+* [Adversarial attacks in radiology – A systematic review](https://www.ejradiology.com/article/S0720-048X(23)00399-6/fulltext), *Eur. J. Radiol.* (2023)
+* [Adversarial attacks and adversarial robustness in computational pathology](https://www.nature.com/articles/s41467-022-33266-0), *Nat. Comm.* (2022)
+* [Advancing diagnostic performance and clinical usability of neural networks via adversarial training and dual batch normalization](https://www.nature.com/articles/s41467-021-24464-3), *Nat. Comm.* (2021)
+* [Adversarial attacks on medical machine learning](https://www.science.org/doi/10.1126/science.aaw4399), *Science* (2019)
 
 ### Robustness evaluation
 * [The Data Addition Dilemma](https://arxiv.org/abs/2408.04154), arXiv:2408.04154
