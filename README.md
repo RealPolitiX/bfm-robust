@@ -22,3 +22,13 @@ Companion repo for robustness specification in biomedical foundation models
 * [Stable clinical risk prediction against distribution shift in electronic health records](https://www.cell.com/patterns/fulltext/S2666-3899(23)00197-6), *Patterns* (2023)
 * [EHR foundation models improve robustness in the presence of temporal distribution shift](https://www.nature.com/articles/s41598-023-30820-8), *Sci. Rep.* (2023)
 * [Evaluation of domain generalization and adaptation on improving model robustness to temporal dataset shift in clinical medicine](https://www.nature.com/articles/s41598-022-06484-1), *Sci. Rep.* (2022)
+
+### Knowledge robustness
+* [Poisoning medical knowledge using large language models](https://www.nature.com/articles/s42256-024-00899-3), Nat. Mach. Intell. (2024)
+* [Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks](https://arxiv.org/abs/2402.10527), arXiv:2402.10527
+
+### Robustness evaluation
+* [The Data Addition Dilemma](https://arxiv.org/abs/2408.04154), arXiv:2408.04154
+* [Evaluating Robustness to Dataset Shift via Parametric Robustness Sets](https://proceedings.neurips.cc/paper_files/paper/2022/hash/6b7f9d9c1217a748391800871ff7d17d-Abstract-Conference.html), NeurIPS (2022)
+* [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK), ICLR (2022)
+* [Mandoline: Model Evaluation under Distribution Shift](https://proceedings.mlr.press/v139/chen21i.html), ICML (2021)
