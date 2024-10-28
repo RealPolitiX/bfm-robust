@@ -16,3 +16,9 @@ Companion repo for robustness specification in biomedical foundation models
 
 ### Instance-wise robustness
 * [Characterizing Data Point Vulnerability as Average-Case Robustness](https://proceedings.mlr.press/v244/han24a.html), UAI (2024)
+
+### Longitudinal/Temporal robustness
+* [Pathophysiological Features in Electronic Medical Records Sustain Model Performance under Temporal Dataset Shift](https://pmc.ncbi.nlm.nih.gov/articles/PMC11141811/), AMIA (2024)
+* [Stable clinical risk prediction against distribution shift in electronic health records](https://www.cell.com/patterns/fulltext/S2666-3899(23)00197-6), *Patterns* (2023)
+* [EHR foundation models improve robustness in the presence of temporal distribution shift](https://www.nature.com/articles/s41598-023-30820-8), *Sci. Rep.* (2023)
+* [Evaluation of domain generalization and adaptation on improving model robustness to temporal dataset shift in clinical medicine](https://www.nature.com/articles/s41598-022-06484-1), *Sci. Rep.* (2022)
