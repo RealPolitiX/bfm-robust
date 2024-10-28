@@ -4,6 +4,7 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 ### Surveys \& tutorials
 * [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
+* [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
 
 ### Group robustness
 * [Prompting is a Double-Edged Sword: Improving Worst-Group Robustness of Foundation Models](https://proceedings.mlr.press/v235/setlur24a.html), ICML (2024)
@@ -17,6 +18,11 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 ### Instance-wise robustness
 * [Characterizing Data Point Vulnerability as Average-Case Robustness](https://proceedings.mlr.press/v244/han24a.html), UAI (2024)
 * [Characterizing the Impacts of Instances on Robustness](https://aclanthology.org/2023.findings-acl.146/), ACL (2023)
+
+### Uncertainty awareness \& Uncertainty-aware robustness
+* [Domain-specific or Uncertainty-aware models: Does it really make a difference for biomedical text classification?](https://aclanthology.org/2024.bionlp-1.16/), ACL BioNLP Workshop (2024)
+* [Certainly Uncertain: A Benchmark and Metric for Multimodal Epistemic and Aleatoric Awareness](https://arxiv.org/abs/2407.01942), arXiv:2407.01942
+* [Uncertainty-Aware Pre-Trained Foundation Models for Patient Risk Prediction via Gaussian Process](https://dl.acm.org/doi/10.1145/3589335.3651456), WWW (2024)
 
 ### Longitudinal/Temporal robustness
 * [Pathophysiological Features in Electronic Medical Records Sustain Model Performance under Temporal Dataset Shift](https://pmc.ncbi.nlm.nih.gov/articles/PMC11141811/), AMIA (2024)
