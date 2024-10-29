@@ -4,6 +4,9 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 ### Surveys \& tutorials
 * [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
+* [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715), arXiv:2402.12715
+* [Developing robust benchmarks for driving forward AI innovation in healthcare](https://www.nature.com/articles/s42256-022-00559-4), *Nat. Mach. Intell.* (2022)
+* [Shifting machine learning for healthcare from development to deployment and from models to data](https://www.nature.com/articles/s41551-022-00898-y), *Nat. Biomed. Eng.* (2022)
 * [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
 
 ### Group robustness
@@ -18,6 +21,10 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 ### Instance-wise robustness
 * [Characterizing Data Point Vulnerability as Average-Case Robustness](https://proceedings.mlr.press/v244/han24a.html), UAI (2024)
 * [Characterizing the Impacts of Instances on Robustness](https://aclanthology.org/2023.findings-acl.146/), ACL (2023)
+
+### Aggregated robustness
+* [Ensemble everything everywhere: Multi-scale aggregation for adversarial robustness](https://arxiv.org/abs/2408.05446), arXiv:2408.05446
+* [On the Adversarial Robustness of Mixture of Experts](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3effb91593c4fb42b1da1528328eff49-Abstract-Conference.html), NeurIPS (2022)
 
 ### Uncertainty awareness \& Uncertainty-aware robustness
 * [Domain-specific or Uncertainty-aware models: Does it really make a difference for biomedical text classification?](https://aclanthology.org/2024.bionlp-1.16/), ACL BioNLP Workshop (2024)
@@ -55,8 +62,11 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 * [Advancing diagnostic performance and clinical usability of neural networks via adversarial training and dual batch normalization](https://www.nature.com/articles/s41467-021-24464-3), *Nat. Comm.* (2021)
 * [Adversarial attacks on medical machine learning](https://www.science.org/doi/10.1126/science.aaw4399), *Science* (2019)
 
-### Robustness evaluation
+### Robustness evaluation \& monitoring
+* [Scalable Drift Monitoring in Medical Imaging AI](https://arxiv.org/abs/2410.13174), arXiv:2410.13174
 * [The Data Addition Dilemma](https://arxiv.org/abs/2408.04154), arXiv:2408.04154
+* [Empirical data drift detection experiments on real-world medical imaging data](https://www.nature.com/articles/s41467-024-46142-w), *Nat. Comm.* (2024)
+* [Diagnosing and remediating harmful data shifts for the responsible deployment of clinical AI models](https://www.medrxiv.org/content/10.1101/2023.03.26.23286718v2), medRxiv:2023.03.26.23286718
 * [Evaluating Robustness to Dataset Shift via Parametric Robustness Sets](https://proceedings.neurips.cc/paper_files/paper/2022/hash/6b7f9d9c1217a748391800871ff7d17d-Abstract-Conference.html), NeurIPS (2022)
 * [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK), ICLR (2022)
 * [Mandoline: Model Evaluation under Distribution Shift](https://proceedings.mlr.press/v139/chen21i.html), ICML (2021)
