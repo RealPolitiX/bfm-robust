@@ -2,12 +2,18 @@
 Companion repo for robustness specification in biomedical foundation models (BFMs)
 
 ### Surveys \& tutorials
+Robustness typology and foundation model-related
+##### General domains
 * [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
+* [Robustness at Inference: Towards Explainability, Uncertainty, and Intervenability](https://alregib.ece.gatech.edu/courses-and-tutorials/cvpr-2024-tutorial/), CVPR Tutorial (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
 * [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715), arXiv:2402.12715
+* [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
+##### Biomedical domains
+* [SoK: Security and Privacy Risks of Medical AI](https://arxiv.org/abs/2409.07415), arXiv:2409.07415
 * [Developing robust benchmarks for driving forward AI innovation in healthcare](https://www.nature.com/articles/s42256-022-00559-4), *Nat. Mach. Intell.* (2022)
 * [Shifting machine learning for healthcare from development to deployment and from models to data](https://www.nature.com/articles/s41551-022-00898-y), *Nat. Biomed. Eng.* (2022)
-* [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
+* [Secure and Robust Machine Learning for Healthcare: A Survey](https://ieeexplore.ieee.org/abstract/document/9153891), *IEEE Rev. Biomed. Eng.* (2020)
 
 ### Group robustness
 * [Prompting is a Double-Edged Sword: Improving Worst-Group Robustness of Foundation Models](https://proceedings.mlr.press/v235/setlur24a.html), ICML (2024)
@@ -15,6 +21,7 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 * [Controllable Prompt Tuning For Balancing Group Distributional Robustness](https://proceedings.mlr.press/v235/phan24b.html), ICML (2024)
 * [Multigroup Robustness](https://proceedings.mlr.press/v235/hu24l.html), ICML (2024)
 * [Change is hard: a closer look at subpopulation shift](https://proceedings.mlr.press/v202/yang23s.html), ICML (2023)
+* [Improving Out-of-Distribution Robustness via Selective Augmentation](https://proceedings.mlr.press/v162/yao22b.html), ICML (2022)
 * [Just Train Twice: Improving Group Robustness without Training Group Information](https://proceedings.mlr.press/v139/liu21f.html), ICML (2021)
 * [No Subclass Left Behind: Fine-Grained Robustness in Coarse-Grained Classification Problems](https://proceedings.neurips.cc/paper/2020/hash/e0688d13958a19e087e123148555e4b4-Abstract.html), NeurIPS (2020)
 
@@ -36,10 +43,12 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 * [Stable clinical risk prediction against distribution shift in electronic health records](https://www.cell.com/patterns/fulltext/S2666-3899(23)00197-6), *Patterns* (2023)
 * [EHR foundation models improve robustness in the presence of temporal distribution shift](https://www.nature.com/articles/s41598-023-30820-8), *Sci. Rep.* (2023)
 * [Evaluation of domain generalization and adaptation on improving model robustness to temporal dataset shift in clinical medicine](https://www.nature.com/articles/s41598-022-06484-1), *Sci. Rep.* (2022)
+* [Longitudinal Adversarial Attack on Electronic Health Records Data](https://dl.acm.org/doi/abs/10.1145/3308558.3313528), WWW (2019)
 
 ### Knowledge robustness
 * [Medical large language models are susceptible to targeted misinformation attacks](https://www.nature.com/articles/s41746-024-01282-7), *npj Digit. Med.* (2024)
 * [PromptSmooth: Certifying Robustness of Medical Vision-Language Models via Prompt Learning](https://link.springer.com/chapter/10.1007/978-3-031-72390-2_65), MICCAI (2024)
+* [BAPLe: Backdoor Attacks on Medical Foundational Models using Prompt Learning](https://arxiv.org/abs/2408.07440), arXiv:2408.07440
 * [Large Diverse Ensembles for Robust Clinical NLI](https://aclanthology.org/2024.semeval-1.224/), SemEval (2024)
 * [MedFuzz: Exploring the Robustness of Large Language Models in Medical Question Answering](https://arxiv.org/abs/2406.06573), arXiv:2406.06573
 * [Adversarial Attacks on Large Language Models in Medicine](https://arxiv.org/abs/2406.12259), arXiv:2406.12259
@@ -66,6 +75,9 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 * [Scalable Drift Monitoring in Medical Imaging AI](https://arxiv.org/abs/2410.13174), arXiv:2410.13174
 * [The Data Addition Dilemma](https://arxiv.org/abs/2408.04154), arXiv:2408.04154
 * [Empirical data drift detection experiments on real-world medical imaging data](https://www.nature.com/articles/s41467-024-46142-w), *Nat. Comm.* (2024)
+* [Off-label use of artificial intelligence models in healthcare](https://www.nature.com/articles/s41591-024-02870-6), *Nat. Med.* (2024)
+* [Understanding Liability Risk from Using Health Care Artificial Intelligence Tools](https://www.nejm.org/doi/abs/10.1056/NEJMhle2308901), *New Eng. J. Med.* (2024)
+* [External validation of AI models in health should be replaced with recurring local validation](https://www.nature.com/articles/s41591-023-02540-z), *Nat. Med.* (2023)
 * [Diagnosing and remediating harmful data shifts for the responsible deployment of clinical AI models](https://www.medrxiv.org/content/10.1101/2023.03.26.23286718v2), medRxiv:2023.03.26.23286718
 * [Evaluating Robustness to Dataset Shift via Parametric Robustness Sets](https://proceedings.neurips.cc/paper_files/paper/2022/hash/6b7f9d9c1217a748391800871ff7d17d-Abstract-Conference.html), NeurIPS (2022)
 * [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK), ICLR (2022)
