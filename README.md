@@ -11,6 +11,7 @@ Robustness typology and foundation model-related
 * [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
 ##### Biomedical domains
 * [SoK: Security and Privacy Risks of Medical AI](https://arxiv.org/abs/2409.07415), arXiv:2409.07415
+* [Ethical and regulatory challenges of large language models in medicine](https://www.sciencedirect.com/science/article/pii/S258975002400061X), *Lancet Digit. Health* (2024)
 * [Developing robust benchmarks for driving forward AI innovation in healthcare](https://www.nature.com/articles/s42256-022-00559-4), *Nat. Mach. Intell.* (2022)
 * [Shifting machine learning for healthcare from development to deployment and from models to data](https://www.nature.com/articles/s41551-022-00898-y), *Nat. Biomed. Eng.* (2022)
 * [Secure and Robust Machine Learning for Healthcare: A Survey](https://ieeexplore.ieee.org/abstract/document/9153891), *IEEE Rev. Biomed. Eng.* (2020)
@@ -29,6 +30,13 @@ Robustness typology and foundation model-related
 * [Characterizing Data Point Vulnerability as Average-Case Robustness](https://proceedings.mlr.press/v244/han24a.html), UAI (2024)
 * [Characterizing the Impacts of Instances on Robustness](https://aclanthology.org/2023.findings-acl.146/), ACL (2023)
 
+### Interventional robustness
+* [Causality-oriented robustness: exploiting general additive interventions](https://arxiv.org/abs/2307.10299), arXiv:2307.10299
+* [Certified Robustness Against Natural Language Attacks by Causal Intervention](https://proceedings.mlr.press/v162/zhao22g.html), ICML (2022)
+* [Towards Causal Representation Learning](https://ieeexplore.ieee.org/document/9363924), *Proc. IEEE* (2021)
+* [A causal view on robustness of neural networks](https://proceedings.neurips.cc/paper_files/paper/2020/hash/02ed812220b0705fabb868ddbf17ea20-Abstract.html), NeurIPS (2020)
+* [Invariance, Causality and Robustness](https://projecteuclid.org/journals/statistical-science/volume-35/issue-3/Invariance-Causality-and-Robustness/10.1214/19-STS721.full), *Statist. Sci.* (2020)
+
 ### Aggregated robustness
 * [Ensemble everything everywhere: Multi-scale aggregation for adversarial robustness](https://arxiv.org/abs/2408.05446), arXiv:2408.05446
 * [On the Adversarial Robustness of Mixture of Experts](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3effb91593c4fb42b1da1528328eff49-Abstract-Conference.html), NeurIPS (2022)
@@ -40,8 +48,10 @@ Robustness typology and foundation model-related
 
 ### Longitudinal/Temporal robustness
 * [Pathophysiological Features in Electronic Medical Records Sustain Model Performance under Temporal Dataset Shift](https://pmc.ncbi.nlm.nih.gov/articles/PMC11141811/), AMIA (2024)
+* [Temporal Robustness against Data poisoning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/94bcb01789fccf15afe2764d8fe0f40e-Abstract-Conference.html), NeurIPS (2023)
 * [Stable clinical risk prediction against distribution shift in electronic health records](https://www.cell.com/patterns/fulltext/S2666-3899(23)00197-6), *Patterns* (2023)
 * [EHR foundation models improve robustness in the presence of temporal distribution shift](https://www.nature.com/articles/s41598-023-30820-8), *Sci. Rep.* (2023)
+* [DeepJoint: Robust Survival Modelling Under Clinical Presence Shift](https://openreview.net/forum?id=ujVubluRFHH), NeurIPS Workshp (2022)
 * [Evaluation of domain generalization and adaptation on improving model robustness to temporal dataset shift in clinical medicine](https://www.nature.com/articles/s41598-022-06484-1), *Sci. Rep.* (2022)
 * [Longitudinal Adversarial Attack on Electronic Health Records Data](https://dl.acm.org/doi/abs/10.1145/3308558.3313528), WWW (2019)
 
