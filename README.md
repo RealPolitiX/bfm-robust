@@ -1,15 +1,21 @@
 # bfm-robust
 Companion repo for robustness specification in biomedical foundation models (BFMs)
 
-### Surveys \& tutorials
-Robustness typology and foundation model-related
-##### General domains
+## Robustness tests in existing BFMs
+We conducted the search of biomedical foundation models by combining a few existing GitHub repositories, review papers along with internet search. We selected representative ones and collected the relevant information on the model name, developers, modality, domain, capabilities, and robustness tests. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing).
+
+## Robustness categorization and examples
+A combination of theoretical and application-oriented resources are collected for robustness. The categorization of robustness follows that provided in the paper.
+
+### Surveys \& tutorials (general domains)
+Robustness in the context of foundation models
 * [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
 * [Robustness at Inference: Towards Explainability, Uncertainty, and Intervenability](https://alregib.ece.gatech.edu/courses-and-tutorials/cvpr-2024-tutorial/), CVPR Tutorial (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
 * [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715), arXiv:2402.12715
 * [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
-##### Biomedical domains
+
+### Surveys \& tutorials (biomedical domains)
 * [SoK: Security and Privacy Risks of Medical AI](https://arxiv.org/abs/2409.07415), arXiv:2409.07415
 * [Ethical and regulatory challenges of large language models in medicine](https://www.sciencedirect.com/science/article/pii/S258975002400061X), *Lancet Digit. Health* (2024)
 * [Developing robust benchmarks for driving forward AI innovation in healthcare](https://www.nature.com/articles/s42256-022-00559-4), *Nat. Mach. Intell.* (2022)
