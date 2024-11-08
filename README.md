@@ -2,14 +2,14 @@
 Companion repo for robustness specification in biomedical foundation models (BFMs)
 
 ## Robustness tests in existing BFMs
-We conducted the search of BFMs from a few existing GitHub repositories, review papers along with internet search. We selected a total of about 50 representative BFMs in publication and preprints. We then collected the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the corresponding model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). Among the examined models, we break down the claimed robustness tests in the following.
+We conducted the search of BFMs from a few existing GitHub repositories, review papers along with internet search. We selected a total of about 50 representative BFMs (mostly published in 2023-2024) in publication and preprints. We then collected the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the corresponding model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). Among the examined models, we break down the claimed robustness tests in the following.
 
-<span style="color:yellowgreen">32\%</span> &ensp; None<br>
-<span style="color:yellowgreen">32\%</span> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
-<span style="color:yellowgreen">16\%</span> &ensp; Evaluation on artificially shifted datasets (including perturbed and synthetic datasets)<br>
-<span style="color:yellowgreen">8\%</span> &emsp; Evaluation on external datasets (datasets not used in development)<br>
-<span style="color:yellowgreen">8\%</span> &emsp; Ablation studies<br>
-<span style="color:yellowgreen">6\%</span> &emsp; Others<br>
+<code style="color:yellowgreen">32\%</code> &ensp; None<br>
+<code style="color:yellowgreen">32\%</code> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
+<code style="color:yellowgreen">16\%</code> &ensp; Evaluation on artificially shifted datasets (including perturbed and synthetic datasets)<br>
+<code style="color:yellowgreen">8\%</code> &emsp; Evaluation on external datasets (datasets not used in development)<br>
+<code style="color:yellowgreen">8\%</code> &emsp; Ablation studies<br>
+<code style="color:yellowgreen">6\%</code> &emsp; Others<br>
 
 ## Robustness categorization and examples
 A combination of theoretical and application-oriented resources are collected for robustness. The categorization of robustness follows that provided in the paper.
