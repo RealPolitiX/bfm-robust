@@ -4,12 +4,12 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 ## Robustness tests in existing BFMs
 We conducted the search of BFMs from a few existing GitHub repositories, review papers along with internet search. We selected a total of about 50 representative BFMs (mostly published in 2023-2024) in publication and preprints. We then collected the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the corresponding model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). Among the examined models, we break down the claimed robustness tests in the following.
 
-<code style="color:yellowgreen">32\%</code> &ensp; None<br>
-<code style="color:yellowgreen">32\%</code> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
-<code style="color:yellowgreen">16\%</code> &ensp; Evaluation on artificially shifted datasets (including perturbed and synthetic datasets)<br>
-<code style="color:yellowgreen">8\%</code> &emsp; Evaluation on external datasets (datasets not used in development)<br>
-<code style="color:yellowgreen">8\%</code> &emsp; Ablation studies<br>
-<code style="color:yellowgreen">6\%</code> &emsp; Others<br>
+<span style="color:yellowgreen">32\%</span> &ensp; None<br>
+<span style="color:yellowgreen">32\%</span> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
+<span style="color:yellowgreen">16\%</span> &ensp; Evaluation on artificially shifted datasets (including perturbed and synthetic datasets)<br>
+<span style="color:yellowgreen">8\%</span> &emsp; Evaluation on external datasets (datasets not used in development)<br>
+<span style="color:yellowgreen">8\%</span> &emsp; Ablation studies<br>
+<span style="color:yellowgreen">6\%</span> &emsp; Others<br>
 
 ## Robustness categorization and examples
 A combination of theoretical and application-oriented resources are collected for robustness. The categorization of robustness follows that provided in the paper.
@@ -80,6 +80,11 @@ Robustness in the context of foundation models
 * [Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks](https://arxiv.org/abs/2402.10527), arXiv:2402.10527
 * [Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging](https://arxiv.org/abs/2401.02565), arXiv:2401.02565
 * [Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging](https://www.nature.com/articles/s41551-023-01049-7), *Nat. Biomed. Eng.* (2023)
+
+### Behavioral robustness
+* [Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs](https://arxiv.org/abs/2407.15549), arXiv:2407.15549
+* [An Auditing Test To Detect Behavioral Shift in Language Models](https://openreview.net/forum?id=N0lEOF2eDm), ICML Workshop (2024)
+* [Robust Conversational Agents against Imperceptible Toxicity Triggers](https://aclanthology.org/2022.naacl-main.204/), NAACL (2022)
 
 ### Pref-BFM adversarial robustness (language)
 * [Evaluating the Robustness of Adverse Drug Event Classification Models using Templates](https://aclanthology.org/2024.bionlp-1.3/), ACL BioNLP Workshop (2024)
