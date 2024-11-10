@@ -2,7 +2,7 @@
 Companion repo for robustness specification in biomedical foundation models (BFMs)
 
 ## Robustness tests in existing BFMs
-We conducted the search of BFMs from a few existing GitHub repositories, review papers along with internet search. We selected a total of about 50 representative BFMs (mostly published in 2023-2024) in publication and preprints. We then collected the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the corresponding model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). Among the examined models, we break down the claimed robustness tests in the following.
+We carreid out the search of BFMs from a few existing GitHub repositories, review papers, and directly on the internet. We selected a total of about 50 representative BFMs (mostly published in 2023-2024) in publication and preprints, covering a broad range of biomedical domains. We then extracted the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the each model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). In the following, we break down the claimed robustness tests conducted for the BFMs.
 
 <span style="color:yellowgreen">32\%</span> &ensp; None<br>
 <span style="color:yellowgreen">32\%</span> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
@@ -10,6 +10,8 @@ We conducted the search of BFMs from a few existing GitHub repositories, review 
 <span style="color:yellowgreen">8\%</span> &emsp; Evaluation on external datasets (datasets not used in development)<br>
 <span style="color:yellowgreen">8\%</span> &emsp; Ablation studies<br>
 <span style="color:yellowgreen">6\%</span> &emsp; Others<br>
+
+None indicates no specified robustness tests. Most claimed robustness tests in the selected BFMs involve evaluation of model performance on some datasets, which we divide into three types: existing datasets, artificially shifted datasets, and external datasets.
 
 ## Robustness categorization and examples
 A combination of theoretical and application-oriented resources are collected for robustness. The categorization of robustness follows that provided in the paper.
