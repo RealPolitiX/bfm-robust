@@ -1,6 +1,24 @@
 # bfm-robust
 Companion repo for robustness specification in biomedical foundation models (BFMs)
 
+Please cite the following for reference
+```
+@misc{xian_biomedical_2024,
+    address = {Rochester, NY},
+    type = {SSRN Scholarly Paper},
+    title = {Biomedical Foundation Models Need Tailored Robustness Tests},
+    url = {https://papers.ssrn.com/abstract=5013799},
+    doi = {10.2139/ssrn.5013799},
+    language = {en},
+    urldate = {2024-11-20},
+    publisher = {Social Science Research Network},
+    author = {Xian, Patrick and Baker, Noah R. and David, Tom and Cui, Qiming and Holmgren, A. Jay and Bauer, Stefan and Sushil, Madhumita and Abbasi-Asl, Reza},
+    month = nov,
+    year = {2024},
+    keywords = {AI policy, foundation model, health AI, robustness},
+}
+```
+
 ## Robustness tests in existing BFMs
 We carreid out the search of BFMs from a few existing GitHub repositories, review papers, and directly on the internet. We selected a total of about 50 representative BFMs (mostly published in 2023-2024) in publication and preprints, covering a broad range of biomedical domains. We then extracted the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the each model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). In the following, we break down the claimed robustness tests conducted for the BFMs. While about a third of the models don't have an explicit robustness test, a small number of models have been subject to multiple ones.
 
@@ -107,6 +125,7 @@ Robustness in the context of foundation models
 * [Empirical data drift detection experiments on real-world medical imaging data](https://www.nature.com/articles/s41467-024-46142-w), *Nat. Comm.* (2024)
 * [Off-label use of artificial intelligence models in healthcare](https://www.nature.com/articles/s41591-024-02870-6), *Nat. Med.* (2024)
 * [Understanding Liability Risk from Using Health Care Artificial Intelligence Tools](https://www.nejm.org/doi/abs/10.1056/NEJMhle2308901), *New Eng. J. Med.* (2024)
+* [Can You Rely on Your Model Evaluation? Improving Model Evaluation with Synthetic Test Data](https://proceedings.neurips.cc/paper_files/paper/2023/hash/05fb0f4e645cad23e0ab59d6b9901428-Abstract-Conference.html), NeurIPS (2023)
 * [External validation of AI models in health should be replaced with recurring local validation](https://www.nature.com/articles/s41591-023-02540-z), *Nat. Med.* (2023)
 * [Diagnosing and remediating harmful data shifts for the responsible deployment of clinical AI models](https://www.medrxiv.org/content/10.1101/2023.03.26.23286718v2), medRxiv:2023.03.26.23286718
 * [Evaluating Robustness to Dataset Shift via Parametric Robustness Sets](https://proceedings.neurips.cc/paper_files/paper/2022/hash/6b7f9d9c1217a748391800871ff7d17d-Abstract-Conference.html), NeurIPS (2022)
