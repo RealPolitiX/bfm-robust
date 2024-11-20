@@ -1,7 +1,7 @@
 # bfm-robust
 Companion repo for robustness specification in biomedical foundation models (BFMs)
 
-Please cite the following for reference
+Please cite the following preprint for reference
 ```
 @misc{xian_biomedical_2024,
     address = {Rochester, NY},
