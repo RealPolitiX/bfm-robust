@@ -65,6 +65,7 @@ Robustness in the context of foundation models
 * [Characterizing the Impacts of Instances on Robustness](https://aclanthology.org/2023.findings-acl.146/), ACL (2023)
 
 ### Interventional robustness
+* [Achievable distributional robustness when the robust risk is only partially identified](https://openreview.net/forum?id=G2dYZJO4BE), NeurIPS (2024)
 * [Causality-oriented robustness: exploiting general additive interventions](https://arxiv.org/abs/2307.10299), arXiv:2307.10299
 * [Certified Robustness Against Natural Language Attacks by Causal Intervention](https://proceedings.mlr.press/v162/zhao22g.html), ICML (2022)
 * [Towards Causal Representation Learning](https://ieeexplore.ieee.org/document/9363924), *Proc. IEEE* (2021)
