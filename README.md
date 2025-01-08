@@ -3,17 +3,17 @@ Companion repo for robustness specification in biomedical foundation models (BFM
 
 Please cite the following preprint for reference
 ```
-@misc{xian_biomedical_2024,
+@misc{xian_robustness_2024,
     address = {Rochester, NY},
-    type = {SSRN Scholarly Paper},
-    title = {Biomedical Foundation Models Need Tailored Robustness Tests},
+    type = {{SSRN} {Scholarly} {Paper}},
+    title = {Robustness tests for biomedical foundation models should tailor to specification},
     url = {https://papers.ssrn.com/abstract=5013799},
     doi = {10.2139/ssrn.5013799},
     language = {en},
-    urldate = {2024-11-20},
+    urldate = {2024},
     publisher = {Social Science Research Network},
     author = {Xian, Patrick and Baker, Noah R. and David, Tom and Cui, Qiming and Holmgren, A. Jay and Bauer, Stefan and Sushil, Madhumita and Abbasi-Asl, Reza},
-    month = nov,
+    month = jan,
     year = {2024},
     keywords = {AI policy, foundation model, health AI, robustness},
 }
@@ -43,6 +43,7 @@ Robustness in the context of foundation models
 * [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
 
 ### Surveys \& tutorials (biomedical domains)
+* [Toward a framework for risk mitigation of potential misuse of artificial intelligence in biomedical research](https://www.nature.com/articles/s42256-024-00926-3), *Nat. Mach. Intell.* (2024)
 * [SoK: Security and Privacy Risks of Medical AI](https://arxiv.org/abs/2409.07415), arXiv:2409.07415
 * [Ethical and regulatory challenges of large language models in medicine](https://www.sciencedirect.com/science/article/pii/S258975002400061X), *Lancet Digit. Health* (2024)
 * [Developing robust benchmarks for driving forward AI innovation in healthcare](https://www.nature.com/articles/s42256-022-00559-4), *Nat. Mach. Intell.* (2022)
@@ -97,7 +98,7 @@ Robustness in the context of foundation models
 * [Adversarial Attacks on Large Language Models in Medicine](https://arxiv.org/abs/2406.12259), arXiv:2406.12259
 * [Poisoning medical knowledge using large language models](https://www.nature.com/articles/s42256-024-00899-3), *Nat. Mach. Intell.* (2024)
 * [Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP](https://ieeexplore.ieee.org/document/10516621), SaTML (2024)
-* [Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks](https://arxiv.org/abs/2402.10527), arXiv:2402.10527
+* [Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks](https://openreview.net/forum?id=pvol5JyVYB), TMLR (2024)
 * [Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging](https://arxiv.org/abs/2401.02565), arXiv:2401.02565
 * [Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging](https://www.nature.com/articles/s41551-023-01049-7), *Nat. Biomed. Eng.* (2023)
 
