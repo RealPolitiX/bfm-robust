@@ -95,7 +95,7 @@ Robustness in the context of foundation models
 * [Prompt injection attacks on vision language models in oncology](https://www.nature.com/articles/s41467-024-55631-x), *Nat. Comm.* (2025)
 * [Medical large language models are susceptible to targeted misinformation attacks](https://www.nature.com/articles/s41746-024-01282-7), *npj Digit. Med.* (2024)
 * [PromptSmooth: Certifying Robustness of Medical Vision-Language Models via Prompt Learning](https://link.springer.com/chapter/10.1007/978-3-031-72390-2_65), MICCAI (2024)
-* [BAPLe: Backdoor Attacks on Medical Foundational Models using Prompt Learning](https://arxiv.org/abs/2408.07440), arXiv:2408.07440
+* [BAPLe: Backdoor Attacks on Medical Foundational Models using Prompt Learning](https://link.springer.com/chapter/10.1007/978-3-031-72390-2_42), MICCAI (2024)
 * [Large Diverse Ensembles for Robust Clinical NLI](https://aclanthology.org/2024.semeval-1.224/), SemEval (2024)
 * [MedFuzz: Exploring the Robustness of Large Language Models in Medical Question Answering](https://arxiv.org/abs/2406.06573), arXiv:2406.06573
 * [Adversarial Attacks on Large Language Models in Medicine](https://arxiv.org/abs/2406.12259), arXiv:2406.12259
