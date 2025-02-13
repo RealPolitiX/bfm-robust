@@ -34,7 +34,7 @@ None indicates no specified robustness tests. Most claimed robustness tests in t
 ## Robustness categorization and examples
 A combination of theoretical and application-oriented resources are collected for robustness. The categorization of robustness follows that provided in the paper.
 
-### Surveys \& tutorials (general domains)
+### Surveys, perspectives \& tutorials (general domains)
 Robustness in the context of foundation models
 * [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
 * [Robustness at Inference: Towards Explainability, Uncertainty, and Intervenability](https://alregib.ece.gatech.edu/courses-and-tutorials/cvpr-2024-tutorial/), CVPR Tutorial (2024)
@@ -42,7 +42,8 @@ Robustness in the context of foundation models
 * [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715), arXiv:2402.12715
 * [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
 
-### Surveys \& tutorials (biomedical domains)
+### Surveys, perspectives \& tutorials (biomedical domains)
+* [A scoping review of robustness concepts for machine learning in healthcare](https://www.nature.com/articles/s41746-024-01420-1), *npj Digit. Med.* (2025)
 * [Toward a framework for risk mitigation of potential misuse of artificial intelligence in biomedical research](https://www.nature.com/articles/s42256-024-00926-3), *Nat. Mach. Intell.* (2024)
 * [SoK: Security and Privacy Risks of Medical AI](https://arxiv.org/abs/2409.07415), arXiv:2409.07415
 * [Ethical and regulatory challenges of large language models in medicine](https://www.sciencedirect.com/science/article/pii/S258975002400061X), *Lancet Digit. Health* (2024)
@@ -77,8 +78,8 @@ Robustness in the context of foundation models
 * [On the Adversarial Robustness of Mixture of Experts](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3effb91593c4fb42b1da1528328eff49-Abstract-Conference.html), NeurIPS (2022)
 
 ### Uncertainty awareness \& Uncertainty-aware robustness
+* [Certainly Uncertain: A Benchmark and Metric for Multimodal Epistemic and Aleatoric Awareness](https://openreview.net/forum?id=cQ25MQQSNI), ICLR (2025)
 * [Domain-specific or Uncertainty-aware models: Does it really make a difference for biomedical text classification?](https://aclanthology.org/2024.bionlp-1.16/), ACL BioNLP Workshop (2024)
-* [Certainly Uncertain: A Benchmark and Metric for Multimodal Epistemic and Aleatoric Awareness](https://arxiv.org/abs/2407.01942), arXiv:2407.01942
 * [Uncertainty-Aware Pre-Trained Foundation Models for Patient Risk Prediction via Gaussian Process](https://dl.acm.org/doi/10.1145/3589335.3651456), WWW (2024)
 
 ### Longitudinal/Temporal robustness
@@ -91,6 +92,7 @@ Robustness in the context of foundation models
 * [Longitudinal Adversarial Attack on Electronic Health Records Data](https://dl.acm.org/doi/abs/10.1145/3308558.3313528), WWW (2019)
 
 ### Knowledge robustness
+* [Prompt injection attacks on vision language models in oncology](https://www.nature.com/articles/s41467-024-55631-x), *Nat. Comm.* (2025)
 * [Medical large language models are susceptible to targeted misinformation attacks](https://www.nature.com/articles/s41746-024-01282-7), *npj Digit. Med.* (2024)
 * [PromptSmooth: Certifying Robustness of Medical Vision-Language Models via Prompt Learning](https://link.springer.com/chapter/10.1007/978-3-031-72390-2_65), MICCAI (2024)
 * [BAPLe: Backdoor Attacks on Medical Foundational Models using Prompt Learning](https://arxiv.org/abs/2408.07440), arXiv:2408.07440
@@ -104,8 +106,8 @@ Robustness in the context of foundation models
 * [Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging](https://www.nature.com/articles/s41551-023-01049-7), *Nat. Biomed. Eng.* (2023)
 
 ### Behavioral robustness
+* [An Auditing Test To Detect Behavioral Shift in Language Models](https://openreview.net/forum?id=h0jdAboh0o), ICLR (2025)
 * [Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs](https://arxiv.org/abs/2407.15549), arXiv:2407.15549
-* [An Auditing Test To Detect Behavioral Shift in Language Models](https://openreview.net/forum?id=N0lEOF2eDm), ICML Workshop (2024)
 * [Robust Conversational Agents against Imperceptible Toxicity Triggers](https://aclanthology.org/2022.naacl-main.204/), NAACL (2022)
 
 ### Pref-BFM adversarial robustness (language)
