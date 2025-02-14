@@ -40,6 +40,7 @@ Robustness in the context of foundation models
 * [Robustness at Inference: Towards Explainability, Uncertainty, and Intervenability](https://alregib.ece.gatech.edu/courses-and-tutorials/cvpr-2024-tutorial/), CVPR Tutorial (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
 * [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715), arXiv:2402.12715
+* [AI Maintenance: A Robustness Perspective](https://ieeexplore.ieee.org/document/10042081), *IEEE Computer* (2023)
 * [Foundational Robustness of Foundation Models](https://sites.google.com/view/neurips2022-frfm-turotial/home), NeurIPS Tutorial (2022)
 
 ### Surveys, perspectives \& tutorials (biomedical domains)
@@ -93,6 +94,13 @@ Robustness in the context of foundation models
 * [Evaluation of domain generalization and adaptation on improving model robustness to temporal dataset shift in clinical medicine](https://www.nature.com/articles/s41598-022-06484-1), *Sci. Rep.* (2022)
 * [Longitudinal Adversarial Attack on Electronic Health Records Data](https://dl.acm.org/doi/abs/10.1145/3308558.3313528), WWW (2019)
 
+### Vendor/Acquisition-shift robustness
+* [Current Pathology Foundation Models are unrobust to Medical Center Differences](https://arxiv.org/abs/2501.18055), arXiv:2501.18055
+* [Distilling foundation models for robust and efficient models in digital pathology](https://arxiv.org/abs/2501.16239), arXiv:2501.16239
+* [The Impact of Scanner Domain Shift on Deep Learning Performance in Medical Imaging: an Experimental Study](https://arxiv.org/abs/2409.04368), arXiv:2409.04368
+* [A multi-center study on the adaptability of a shared foundation model for electronic health records](https://www.nature.com/articles/s41746-024-01166-w), *npj Digit. Med.* (2024)
+* [Enhancing Robustness of Foundation Model Representations under Provenance-related Distribution Shifts](https://openreview.net/forum?id=9TVx8T0U1h), NeurIPS Workshop (2023)
+
 ### Knowledge robustness
 * [Prompt injection attacks on vision language models in oncology](https://www.nature.com/articles/s41467-024-55631-x), *Nat. Comm.* (2025)
 * [Medical large language models are susceptible to targeted misinformation attacks](https://www.nature.com/articles/s41746-024-01282-7), *npj Digit. Med.* (2024)
@@ -126,6 +134,7 @@ Robustness in the context of foundation models
 * [Adversarial attacks on medical machine learning](https://www.science.org/doi/10.1126/science.aaw4399), *Science* (2019)
 
 ### Robustness evaluation \& monitoring
+* [SURE-VQA: Systematic Understanding of Robustness Evaluation in Medical VQA Tasks](https://arxiv.org/abs/2411.19688), arXiv:2411.19688
 * [Scalable Drift Monitoring in Medical Imaging AI](https://arxiv.org/abs/2410.13174), arXiv:2410.13174
 * [The Data Addition Dilemma](https://arxiv.org/abs/2408.04154), arXiv:2408.04154
 * [Empirical data drift detection experiments on real-world medical imaging data](https://www.nature.com/articles/s41467-024-46142-w), *Nat. Comm.* (2024)
