@@ -61,7 +61,7 @@ Robustness in the context of foundation models
 * [Just Train Twice: Improving Group Robustness without Training Group Information](https://proceedings.mlr.press/v139/liu21f.html), ICML (2021)
 * [No Subclass Left Behind: Fine-Grained Robustness in Coarse-Grained Classification Problems](https://proceedings.neurips.cc/paper/2020/hash/e0688d13958a19e087e123148555e4b4-Abstract.html), NeurIPS (2020)
 
-### Instance-wise robustness
+### Instance-wise/Individual robustness
 * [Characterizing Data Point Vulnerability as Average-Case Robustness](https://proceedings.mlr.press/v244/han24a.html), UAI (2024)
 * [Characterizing the Impacts of Instances on Robustness](https://aclanthology.org/2023.findings-acl.146/), ACL (2023)
 
@@ -70,10 +70,12 @@ Robustness in the context of foundation models
 * [Causality-oriented robustness: exploiting general additive interventions](https://arxiv.org/abs/2307.10299), arXiv:2307.10299
 * [Certified Robustness Against Natural Language Attacks by Causal Intervention](https://proceedings.mlr.press/v162/zhao22g.html), ICML (2022)
 * [Towards Causal Representation Learning](https://ieeexplore.ieee.org/document/9363924), *Proc. IEEE* (2021)
+* [Provable Guarantees on the Robustness of Decision Rules to Causal Interventions](https://www.ijcai.org/proceedings/2021/585), IJCAI (2021)
 * [A causal view on robustness of neural networks](https://proceedings.neurips.cc/paper_files/paper/2020/hash/02ed812220b0705fabb868ddbf17ea20-Abstract.html), NeurIPS (2020)
 * [Invariance, Causality and Robustness](https://projecteuclid.org/journals/statistical-science/volume-35/issue-3/Invariance-Causality-and-Robustness/10.1214/19-STS721.full), *Statist. Sci.* (2020)
 
 ### Aggregated robustness
+* [Optimizing Robustness and Accuracy in Mixture of Experts: A Dual-Model Approach](https://arxiv.org/abs/2502.06832), arXiv:2502.06832
 * [Ensemble everything everywhere: Multi-scale aggregation for adversarial robustness](https://arxiv.org/abs/2408.05446), arXiv:2408.05446
 * [On the Adversarial Robustness of Mixture of Experts](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3effb91593c4fb42b1da1528328eff49-Abstract-Conference.html), NeurIPS (2022)
 
