@@ -36,7 +36,7 @@ A combination of theoretical and application-oriented resources are collected fo
 
 ### Surveys, perspectives \& tutorials (general domains)
 Robustness in the context of foundation models
-* [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2024)
+* [A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities](https://dl.acm.org/doi/10.1145/3665926), *ACM Comput. Surv.* (2025)
 * [Robustness at Inference: Towards Explainability, Uncertainty, and Intervenability](https://alregib.ece.gatech.edu/courses-and-tutorials/cvpr-2024-tutorial/), CVPR Tutorial (2024)
 * [Machine Learning Robustness: A Primer](https://arxiv.org/abs/2404.00897), arXiv:2404.00897
 * [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715), arXiv:2402.12715
@@ -112,7 +112,7 @@ Robustness in the context of foundation models
 * [Poisoning medical knowledge using large language models](https://www.nature.com/articles/s42256-024-00899-3), *Nat. Mach. Intell.* (2024)
 * [Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP](https://ieeexplore.ieee.org/document/10516621), SaTML (2024)
 * [Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks](https://openreview.net/forum?id=pvol5JyVYB), TMLR (2024)
-* [Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging](https://arxiv.org/abs/2401.02565), arXiv:2401.02565
+* [Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging](https://ieeexplore.ieee.org/document/10635610), ISBI (2024)
 * [Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging](https://www.nature.com/articles/s41551-023-01049-7), *Nat. Biomed. Eng.* (2023)
 
 ### Behavioral robustness
