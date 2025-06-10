@@ -22,12 +22,23 @@ Please cite the following preprint for reference
 ## Robustness tests in existing BFMs
 We carreid out the search of BFMs from a few existing GitHub repositories, review papers, and directly on the internet. We selected a total of about 50 representative BFMs (mostly published in 2023-2024) in publication and preprints, covering a broad range of biomedical domains. We then extracted the relevant information on the model name, developers, modality, domain, capabilities, and any robustness tests that have been described for the each model. The information is gathered [here](https://docs.google.com/spreadsheets/d/1i2Nj4xRwwnwCti14fFUopJvHaZQyDi6ycnmAAHAYTbA/edit?usp=sharing). In the following, we break down the claimed robustness tests conducted for the BFMs. While about a third of the models don't have an explicit robustness test, a small number of models have been subject to multiple ones.
 
-<span style="color:yellowgreen">32\%</span> &ensp; None<br>
-<span style="color:yellowgreen">32\%</span> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
-<span style="color:yellowgreen">16\%</span> &ensp; Evaluation on artificially shifted datasets (including perturbed and synthetic datasets)<br>
-<span style="color:yellowgreen">8\%</span> &emsp; Evaluation on external datasets (datasets not used in development)<br>
-<span style="color:yellowgreen">8\%</span> &emsp; Ablation studies<br>
-<span style="color:yellowgreen">6\%</span> &emsp; Others<br>
+<p float="left">
+    <img src="resources/BFM_distribution.png" alt="BFM" style="width:auto; height:300px;">
+    <img src="resources/Robusttest_distribution.png" alt="Robusttest" style="width:auto; height:300px;">
+</p>
+
+<!-- <span style="color:yellowgreen">33.3\%</span> &ensp; Evaluation on multiple existing datasets (including public datasets used for finetuning)<br>
+<span style="color:yellowgreen">31.4\%</span> &ensp; None<br>
+<span style="color:yellowgreen">13.7\%</span> &emsp; Others<br>
+<span style="color:yellowgreen">9.8\%</span> &emsp; Evaluation on external site data (not used in development)<br>
+<span style="color:yellowgreen">16\%</span> &ensp; Evaluation on artificially shifted data (including perturbed and synthetic datasets)<br>
+<span style="color:yellowgreen">7.8\%</span> &emsp; Ablation analysis<br> -->
+
+* Eval. (evaluation) on multiple datasets = evaluating robustness using existing benchmarks, training and testing are from the same data distribution  
+* Eval. on external site data = evaluating robustness using datasets from (hospital) sites not used in the development, so the evaluation set can have unknown distribution shift
+* Eval. on shifted data = evaluating robustness using a constructed dataset with shifted distribution, usually along the dimension of one parameter (e.g. age, race, etc.)
+* Eval. on synthetic data
+
 
 None indicates no specified robustness tests. Most claimed robustness tests in the selected BFMs involve evaluation of model performance on some datasets, which we divide into three types: existing datasets, artificially shifted datasets, and external datasets.
 
@@ -134,6 +145,7 @@ Robustness in the context of foundation models
 * [Adversarial attacks on medical machine learning](https://www.science.org/doi/10.1126/science.aaw4399), *Science* (2019)
 
 ### Robustness evaluation \& monitoring
+* [Detecting sensitive medical responses in general purpose large language models](https://proceedings.mlr.press/v259/lopez-martinez25a.html), ML4H (2024)
 * [SURE-VQA: Systematic Understanding of Robustness Evaluation in Medical VQA Tasks](https://arxiv.org/abs/2411.19688), arXiv:2411.19688
 * [Scalable Drift Monitoring in Medical Imaging AI](https://arxiv.org/abs/2410.13174), arXiv:2410.13174
 * [The Data Addition Dilemma](https://arxiv.org/abs/2408.04154), arXiv:2408.04154
